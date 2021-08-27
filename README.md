@@ -1,10 +1,3 @@
----
-title: "FlowPic Project Page"
-excerpt: "We introduce a novel approach for encrypted Internet traffic classification and application identification by transforming basic flow data into a picture, a FlowPic, and then using known image classification deep learning techniques, Convolutional Neural Networks (CNNs), to identify the flow category (browsing, chat, video, etc.) and the application in use.  <br/><br/><img src='http://talshapira.github.io/files/FlowPic_sys.png'>"
-collection: portfolio
----
-
-
 Identifying the type of a network flow or a specific application has many advantages, but become harder in recent years due to the use of encryption, e.g., by VPN and Tor. 
 Current solutions rely mostly on handcrafted features and then apply supervised learning techniques for the classification. 
 	
