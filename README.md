@@ -43,8 +43,16 @@ Notice that our categories differ slightly from those suggested by UNB. All the 
 We parsed the pcap files and constructed for each combination of traffic category and encryption technique a CSV file with the following structure - 
 |pcap_name|ip_src|port_src|ip_dst|port_dst|TCP/UDP|start_time|length|[timestamps_list]|[sizes_list]| , such that each entry corresponds to a specific unidirectional session.
 
+# TrafficParser
 
-## License
+Contains the code use to generate the dataset (npy files) per experiment.
+If you choose to use our proceesed dataset (i.e. CSV files) directly, run the scripts in the following order:
+1. Run traffic_csv_converter.py
+2. Run datasets_generator.py
+
+The other two scripts (generic_parser.py + traffic_csv_merger.py) used to generate the proceesed dataset.
+
+# License
 
 Our proceesed dataset (i.e. CSV files) is [publicly available](https://drive.google.com/file/d/1gz61vnMANj-4hKNvZv1KFK9LajR91X-m/view?usp=sharing) upon request for researchers. If you are using our dataset, please cite our related research paper, as well as UNB's related research papers:
 
