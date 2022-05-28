@@ -1,3 +1,5 @@
+# FlowPic: A Generic Representation for Encrypted Traffic Classification and Applications Identification
+
 Identifying the type of a network flow or a specific application has many advantages, but become harder in recent years due to the use of encryption, e.g., by VPN and Tor. 
 Current solutions rely mostly on handcrafted features and then apply supervised learning techniques for the classification. 
 	
